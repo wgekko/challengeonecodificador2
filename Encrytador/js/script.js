@@ -3,15 +3,15 @@
 document.getElementById("textBox").focus();
 
 // Campo para mostrar el texto encriptado.
-var resultsArea = document.getElementById("results");
+const resultsArea = document.getElementById("results");
 
-var resultsTitle = document.getElementById("resultsTitle");
+const resultsTitle = document.getElementById("resultsTitle");
 
 // Elemento div mensaje no encontrado.
-var divNotFound = document.getElementById("notFound");
+const divNotFound = document.getElementById("notFound");
 
 // Boton copiar mensaje.
-var copyResultButton = document.getElementById("copyResultButton");
+const copyResultButton = document.getElementById("copyResultButton");
 
 
 // Encriptador \\
@@ -56,8 +56,8 @@ function encryptTextv2() {
   }
 
   const text = document.getElementById("textBox").value;
-  var textBoxElement = document.getElementById("textBox");
-  var textEncrypted = text;
+  let textBoxElement = document.getElementById("textBox");
+  let textEncrypted = text;
 
   textEncrypted = textEncrypted.replace(/e/gi, letraE);
   textEncrypted = textEncrypted.replace(/i/gi, letraI);
@@ -79,8 +79,8 @@ function decryptText() {
   }
 
   const text = document.getElementById("textBox").value;
-  var textBoxElement = document.getElementById("textBox");
-  var textDecrypted = text;
+  let textBoxElement = document.getElementById("textBox");
+  let textDecrypted = text;
 
   textDecrypted = textDecrypted.replace(/enter/gi, "e");
   textDecrypted = textDecrypted.replace(/imes/gi, "i");
@@ -98,7 +98,7 @@ function decryptText() {
 }
 
 function copyText() {
-  var text = document.getElementById("results");
+  let text = document.getElementById("results");
   text.select();
   navigator.clipboard.writeText(text.innerHTML);
 }
