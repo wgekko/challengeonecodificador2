@@ -24,4 +24,4 @@ No deben ser utilizadas letras con acentos ni caracteres especiales
 
 Debe ser posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original.
 
-
+![Image text]("C:\Users\Walter\Documents\AAA-ORACLE-Programacion\AAA-Challenge-Logica de Programacion-Sprint01\Insignia-Oracle-Alura-Challenge#1.jpg")
