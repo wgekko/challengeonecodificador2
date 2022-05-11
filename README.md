@@ -26,4 +26,4 @@ Debe ser posible convertir una palabra para la versión encriptada también devo
 
 mi insignia por el logro del Challenge
 
-![Image text]("https://github.com/wgekko/challengeonecodificador2/blob/main/Insignia-Oracle-Alura-Challenge%231.jpg")
+![Image text](https://github.com/wgekko/challengeonecodificador2/blob/main/Insignia-Oracle-Alura-Challenge%231.jpg)
